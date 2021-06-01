@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: msg-service
+  mail:
+    host: smtp.qq.com
+    username: 1084783417@qq.com
+    password: hmtzeiradhbmjbjd
+    port: 25
+    default-encoding: UTF-8
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1
+    ssl: false
+    timeout: 5
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+server:
+  servlet:
+    context-path: /api/msg
+  port: 8084
