@@ -2,9 +2,9 @@ spring:
   application:
     name: msg-service
   mail:
-    host: smtp.qq.com
-    username: 1084783417@qq.com
-    password: hmtzeiradhbmjbjd
+    host: #your email
+    username: #your email
+    password: #your email
     port: 25
     default-encoding: UTF-8
   redis:
